@@ -1,6 +1,12 @@
 namespace JogoDaVelha;
-using System;
+using Jogo;
+using JogoMaquina;
+using JogoDaVelha;
 using System.Collections.Generic;
+using System.Linq;
+using System;
+using System.Runtime.ConstrainedExecution;
+
 
 public class JogoVelha
 {
@@ -35,6 +41,7 @@ public class JogoVelha
 
           if (i < 2)
               Console.WriteLine("--+---+--");
+              
       }
   }
   public void AtualizarTabuleiro(List<int> jogadasJogador, List<int> jogadasMaquina)
