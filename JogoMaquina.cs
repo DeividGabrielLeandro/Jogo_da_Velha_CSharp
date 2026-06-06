@@ -29,7 +29,7 @@ do
     bool MaquinaVenceu = false;
 
 
-    Jogador jogador = new Jogador('X', NomeJogador);
+    Jogador1 jogador = new Jogador1('X', NomeJogador);
     Maquina maquina = new Maquina('O', NomeMaquina);
     JogoVelha jogo = new JogoVelha();
 
@@ -39,20 +39,6 @@ do
     Random random = new Random();
     int JogadaAleatoriaMaquina;
 
-
-    // tabuleiro
-    foreach (int jogadas in JogadasJogador)
-    {
-        int linha = (jogadas - 1) / 3;
-        int coluna = (jogadas - 1) % 3;
-        jogo.Tabuleiro[linha, coluna] = 'X';
-    }
-    foreach (int jogadasM in JogadasMaquina)
-    {
-        int linhaM = (jogadasM - 1) / 3;
-        int colunaM = (jogadasM - 1) % 3;
-        jogo.Tabuleiro[linhaM, colunaM] = 'O';
-    }
     //ganhador
 
     bool vitoriaJogador(List<int> JogadasJogador) =>

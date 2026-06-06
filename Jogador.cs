@@ -1,16 +1,31 @@
 namespace Jogo;
-public class Jogador
+public class Jogador1
 {
 
     public string Nome { get; set; }
     public char Simbolo { get; set; }
 
-    public Jogador(char Simbolo, string Nome)
+    public Jogador1(char Simbolo, string Nome)
     {
         this.Nome = Nome;
         this.Simbolo = Simbolo;
     }
 }
+
+
+public class Jogador2
+{
+
+    public string Nome { get; set; }
+    public char Simbolo { get; set; }
+
+    public Jogador2(char Simbolo, string Nome)
+    {
+        this.Nome = Nome;
+        this.Simbolo = Simbolo;
+    }
+}
+
 
 
 
