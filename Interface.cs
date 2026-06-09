@@ -26,7 +26,7 @@ public class InterfaceJogo
                 ModoJogoJogador.JogadorVSJogador();
                 break;
             case 2:
-                InterfaceJogo.InterfaceEscolhaDificuldade();
+            JogoContraMaquina.JogoVSMaquina();
                 break;
 
         }
@@ -51,36 +51,9 @@ public class InterfaceJogo
     }
 
 
-    public static void InterfaceEscolhaDificuldade()
-    {
-        Console.Clear();
-
-        Console.WriteLine("-_-_-_-_-_-_-_-_-Jogo da velha-_-_-_-_-_-_-_-_-");
-
-        System.Console.WriteLine("DIFICULDADES CONTRA A MÁQUINA");
-        Console.WriteLine("1 - Modo fácil");
-        Console.WriteLine("2 - Modo médil");
-        Console.WriteLine("3 - Modo difícil");
-        Console.WriteLine();
-        Console.WriteLine("Digite a dificuldade desejada: ");
-        int DificuldadeEscolhida = int.Parse(Console.ReadLine()!);
-
-        switch (DificuldadeEscolhida)
-        {
-            case 1:
-                JogoContraMaquina.ModoFacil(); break;
-            case 2:
-                JogoContraMaquina.ModoFacil();
-                break;
-
-        }
-
-
-
-
-
-    }
-
 
 }
+
+
+
 

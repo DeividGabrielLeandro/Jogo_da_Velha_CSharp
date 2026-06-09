@@ -8,7 +8,7 @@ using System;
 
 public class JogoContraMaquina
 {
-    public static void ModoFacil()
+    public static void JogoVSMaquina()
     {
 
 Console.Clear();
@@ -22,7 +22,6 @@ do
 {
     Console.Clear();
 
-    JogoVelha J = new JogoVelha();
 
 
     bool JogadorVenceu = false;

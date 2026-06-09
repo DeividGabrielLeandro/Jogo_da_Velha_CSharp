@@ -7,5 +7,4 @@ using System;
 using System.Runtime.ConstrainedExecution;
 using Interface;
 
-
 InterfaceJogo.InterfaceInicial();
